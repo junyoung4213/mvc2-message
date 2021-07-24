@@ -7,14 +7,15 @@
 </head>
 <body>
 
-<span th:text="#{lang.change}"></span>:
-<select id="locales">
-    <option value=""></option>
-    <option value="ko" th:text="#{lang.ko}"></option>
-    <option value="en" th:text="#{lang.en}"></option>
-</select>
 
 <div class="container" style="max-width: 600px">
+    <span th:text="#{lang.change}"></span>:
+    <select id="locales">
+        <option value=""></option>
+        <option value="ko" th:text="#{lang.ko}"></option>
+        <option value="en" th:text="#{lang.en}"></option>
+    </select>
+
     <div class="py-5 text-center">
         <h2 th:text="#{page.items}">상품 목록</h2>
     </div>
